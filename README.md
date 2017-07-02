@@ -8,11 +8,11 @@ PHP
 
 Inicio:
 
-![Image of inicio](capturas/inicio.jpg)<br />
+![Image of inicio](capturas/inicio.PNG)<br />
 Trivia:
 
-![Image of inicio](capturas/trivia.jpg)<br />
+![Image of inicio](capturas/trivia.PNG)<br />
 Pokemones:<br />
 
-![Image of inicio](capturas/pokemones.jpg)<br />
+![Image of inicio](capturas/pokemones.PNG)<br />
 
