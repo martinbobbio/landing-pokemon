@@ -1,0 +1,154 @@
+@font-face {
+	font-family: 'PokemonSolidNormal';
+    src: url('../fonts/original_Pokemon_Solid.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/original_Pokemon_Solid.woff') format('woff'),
+         url('../fonts/original_Pokemon_Solid.ttf') format('truetype'),
+         url('../fonts/original_Pokemon_Solid.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.txtpoke{
+	font-family: 'PokemonSolidNormal';
+	color: #ffca0a;
+	
+	text-shadow: 0 0 4px #2e6db4, 
+				-5px 1px 0 #114075,
+				-6px 5px 8px #114075,
+				0 6px 1px rgba(0,0,0,.1),
+				0 0 5px rgba(0,0,0,.1),
+				0 1px 3px rgba(0,0,0,.3),
+				0 3px 5px rgba(0,0,0,.2), 
+				0 5px 10px rgba(0,0,0,.25),
+				0 10px 10px rgba(0,0,0,.2),
+				0 20px 20px rgba(0,0,0,.15);
+	
+	-webkit-text-fill-color: #ffca0a;
+	-webkit-text-stroke:2px #2e6db4;
+	text-fill-color: #ffca0a;
+	text-stroke: 2px #2e6db4;		 
+	-moz-text-fill-color: #ffca0a;
+	-moz-text-stroke: 2px #2e6db4;
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+
+header{
+    width: 100%;
+    height:150px;
+    background: url("../img/header.jpg") repeat-x center;
+}
+
+.mt-20{
+    /*margin-top: 20px;*/
+}
+
+
+header .container-fluid>a{
+    margin:auto;
+    margin-top: 30px;
+    text-align:center;
+    width:100%;
+}
+
+nav.navbar-default{
+    border-bottom: 5px solid #ffca0a !important;
+    background-color: #2E6DB4 !important;
+}
+
+body{
+    background-color: #dddddd;
+}
+
+.poketext{
+    color: #2E6DB4 !important;
+}
+
+.titulos{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+
+.titulos:after,.titulos:before{
+    content: "•";
+    display:inline-block;
+    color: #2E6DB4;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.plr-0{
+    padding-left:0 !important;
+    padding-right: 0 !important;
+}
+
+.pokefooter{
+    padding:20px 0;
+    background: url('../img/footer.png') center;
+
+}
+
+p.scrollable{
+	height: 150px;
+	overflow-y:auto;
+}
+
+.pokebg{
+
+}
+
+#trivia{
+	background-color: #da1212;
+	width:100%;
+	padding:0;
+	margin-bottom: 30px;
+	position: relative;
+	height: 435px;
+}
+
+#trivia img,#trivia form{
+	display: inline-block;
+}
+
+#trivia img.pokemon{
+	position:absolute;
+	max-width: 250px;
+	top: 80px;
+	left:110px;
+}
+
+#trivia img.error{
+	-webkit-filter: brightness(0);
+	-moz-filter: brightness(0);
+	filter: brightness(0);
+	
+}
+#trivia img.success{
+	-webkit-filter: brightness(1);
+	-moz-filter: brightness(1);
+	filter: brightness(1);
+}
+
+#trivia form{
+	position:absolute;
+	bottom: 20px;
+	right: 50px;
+	padding: 15px;
+	background: white;
+	margin: 20px;
+	border-radius: 5px;
+}	
+
+.fs100{
+	font-size:100px;
+}
+
+#trivia p.error,#trivia p.success{
+	padding-top:20px;
+	color: white;
+}

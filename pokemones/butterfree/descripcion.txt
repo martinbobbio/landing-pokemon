@@ -1,0 +1,2 @@
+Tipo: Bicho/Volador
+Butterfree tiene una habilidad especial para encontrar delicioso polen en las flores. Puede localizar, extraer y transportar polen de flores que estén floreciendo a 10 km de distancia de su nido.
