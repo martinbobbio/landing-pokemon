@@ -1,18 +1,26 @@
-## Pagina de pokemons
+<h1 align="center">
+  <br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" width="200">
+  <br>
+  Página de pokemons
+  <br>
+</h1>
 
-**Descripcion:**
+# Descripcin
 Página en la cual se fue trabajando durante la cursada de Taller 3, la cual contaba con subida de imagenes y pokemones, informacion, lista de pokemones, etc
 
-**Tecnologias usadas:**
-PHP
+Tecnologias:
+- PHP
 
-Inicio:
+### Inicio
 
-![Image of inicio](capturas/inicio.PNG)<br />
-Trivia:
+![Image of inicio](capturas/inicio.PNG)
 
-![Image of inicio](capturas/trivia.PNG)<br />
-Pokemones:<br />
+### Trivia
+
+![Image of inicio](capturas/trivia.PNG)
+
+### Pokemones:
 
 ![Image of inicio](capturas/pokemones.PNG)<br />
 
