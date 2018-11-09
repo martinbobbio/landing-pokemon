@@ -12,6 +12,8 @@ Página en la cual se fue trabajando durante la cursada de Taller 3, la cual con
 Tecnologias:
 - PHP
 
+# Capturas
+
 ### Inicio
 
 ![Image of inicio](capturas/inicio.PNG)
